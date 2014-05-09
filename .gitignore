@@ -1,17 +1,68 @@
-*.class
-*.log
+# example/
+example/*.class
+example/*.log
+example/.cache/
+example/.history/
+example/.lib/
+example/dist/*
+example/target/
+example/lib_managed/
+example/src_managed/
+example/project/boot/
+example/project/plugins/project/
+example/project/target/
+example/project/project/target/
+example/submission/
+example/.scala_dependencies
+example/.worksheet
+example/.idea
+example/.classpath
+example/.project
+example/.settings
 
-# sbt specific
-.cache/
-.history/
-.lib/
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+# progfun/
+progfun/*.class
+progfun/*.log
+progfun/.cache/
+progfun/.history/
+progfun/.lib/
+progfun/dist/*
+progfun/target/
+progfun/lib_managed/
+progfun/src_managed/
+progfun/project/boot/
+progfun/project/plugins/project/
+progfun/project/target/
+progfun/project/project/target/
+progfun/submission/
+progfun/.scala_dependencies
+progfun/.worksheet
+progfun/.idea
+progfun/.classpath
+progfun/.project
+progfun/.settings
 
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
+# recfun/
+recfun/*.class
+recfun/*.log
+recfun/.cache/
+recfun/.history/
+recfun/.lib/
+recfun/dist/*
+recfun/target/
+recfun/lib_managed/
+recfun/src_managed/
+recfun/project/boot/
+recfun/project/plugins/project/
+recfun/project/target/
+recfun/project/project/target/
+recfun/submission/
+recfun/.scala_dependencies
+recfun/.worksheet
+recfun/.idea
+recfun/.classpath
+recfun/.project
+recfun/.settings
+
+# zips/
+zips
